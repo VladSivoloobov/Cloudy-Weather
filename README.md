@@ -417,12 +417,10 @@ import styles from './Overview.module.css';
 
 ## 👨‍💻 Автор
 
-**Your Name**
+**Владислав Сиволобов**
 
-- 🌐 Website: [yourwebsite.com](#)
-- 💼 LinkedIn: [your-linkedin](#)
-- 🐙 GitHub: [@your-github](#)
-- 📧 Email: your.email@example.com
+- 🌐 Telegram: [t.me/vladsivolobov](#)
+- 📧 Email: sivolobovv3@gmail.com
 
 ---
 
