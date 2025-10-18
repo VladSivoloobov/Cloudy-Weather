@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+:root {
+  --color-blue: #8dbbff;
+  --color-violet: #d6b4ce;
+  --color-dark: rgba(0, 0, 0, 0.03);
+  --color-white: white;
+
+  --background-blur: blur(18.5px);
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    var(--color-blue),
+    var(--color-violet)
+  );
+}
+
+* {
+  font-family: var(--font-montserrat);
+}
+
+@layer components {
+  .overview-info-text {
+    @apply text-[var(--color-white)] text-center text-2xl;
+  }
+}

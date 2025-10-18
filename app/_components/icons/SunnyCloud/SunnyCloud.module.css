@@ -1,0 +1,9 @@
+:root {
+  --sunny-cloud-sun-animation: 3s infinite ease-in alternate-reverse;
+}
+
+@keyframes SunnyCloudSunAnimation {
+  to {
+    transform: translate(30px);
+  }
+}
