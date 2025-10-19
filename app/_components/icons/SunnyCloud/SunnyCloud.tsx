@@ -1,13 +1,17 @@
+import clsx from 'clsx';
 import * as React from 'react';
-import './SunnyCloud.module.css';
 
-const SunnyCloud = (props: React.ComponentPropsWithoutRef<'svg'>) => (
+const SunnyCloud = ({
+  className,
+  ...props
+}: React.ComponentPropsWithoutRef<'svg'>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={379}
     height={304}
     viewBox='0 0 379 304'
     fill='none'
+    className={clsx('animate-weather-icon', className)}
     {...props}
   >
     <g filter='url(#filter0_f_1_62)'>
@@ -21,7 +25,6 @@ const SunnyCloud = (props: React.ComponentPropsWithoutRef<'svg'>) => (
       />
     </g>
     <path
-      className=''
       d='M229.773 48.5616C259.155 48.5618 282.921 71.6626 282.921 100.096C282.921 128.529 259.155 151.63 229.773 151.63C200.392 151.63 176.625 128.529 176.625 100.096C176.625 71.6625 200.392 48.5616 229.773 48.5616Z'
       fill='url(#paint0_linear_1_62)'
       stroke='url(#paint1_linear_1_62)'

@@ -3,7 +3,7 @@
 :root {
   --color-blue: #8dbbff;
   --color-violet: #d6b4ce;
-  --color-dark: rgba(0, 0, 0, 0.03);
+  --color-dark: rgba(0, 0, 0, 0.06);
   --color-white: white;
 
   --background-blur: blur(18.5px);
@@ -30,5 +30,22 @@ body {
 @layer components {
   .overview-info-text {
     @apply text-[var(--color-white)] text-center text-2xl;
+  }
+}
+
+@keyframes weather-icon {
+  0% {
+    transform: scale(0.98) translate(-10px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@layer utilities {
+  .animate-weather-icon {
+    display: block;
+    transform-box: fill-box;
+    animation: weather-icon 3s infinite ease-in-out alternate-reverse;
   }
 }

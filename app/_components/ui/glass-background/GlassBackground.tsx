@@ -9,7 +9,7 @@ export default function GlassBackground({
     <div
       {...props}
       className={clsx(
-        'bg-[var(--color-dark)] backdrop-blur-lg rounded-3xl border border-[rgba(255,255,255,0.6)]',
+        'bg-[var(--color-dark)] backdrop-blur-lg rounded-3xl border border-[var(--color-white)]',
         className
       )}
     />
