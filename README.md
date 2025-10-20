@@ -2,6 +2,7 @@
 
 # ☁️ Cloudy Weather
 ## Проект пока на стадии разработки и не закончен
+
 ### *Погодное приложение нового поколения с потрясающим дизайном*
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.5.6-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
